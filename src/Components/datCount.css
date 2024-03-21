@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    padding: 50px;
+    border-radius: 10px;
+}
+label{
+    width: 100px;
+}
+input{
+    padding: 10px 30px;
+}
+.date_count_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px
+}
+.startDate-Form,.endDate-Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.resultDisplay{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
